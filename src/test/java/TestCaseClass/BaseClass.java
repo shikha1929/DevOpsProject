@@ -3,12 +3,14 @@ package TestCaseClass;
 import java.time.Duration;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
 import CrmPages.HomePage;
 import CrmPages.LoginPage;
+
 
 public class BaseClass {
 
@@ -28,7 +30,7 @@ public class BaseClass {
 		driver.get("https://automationplayground.com/crm/");
 		driver.manage().window().maximize();
 		hp= new HomePage(driver);
-		lp= new LoginPage(driver);
+		//lp= new LoginPage(driver);
 	}
 	
 	
