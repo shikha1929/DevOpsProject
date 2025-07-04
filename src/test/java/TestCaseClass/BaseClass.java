@@ -30,7 +30,7 @@ public class BaseClass {
 		driver.get("https://automationplayground.com/crm/");
 		driver.manage().window().maximize();
 		hp= new HomePage(driver);
-	//	lp= new LoginPage(driver);
+    	lp= new LoginPage(driver);
 	}
 	
 	
